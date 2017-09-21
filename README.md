@@ -10,9 +10,13 @@ How it will work :
 I have copied english string resources to all 3 languages files, all you have to do is replace those english sentences with your language. 
 
 For e.g. If you want to contribute to spanish translations, open up strings-es file and look up this line,
-<string name="music_is_life">Music is love, Music is life!</string>
+
+\<string name="music_is_life"\>Music is love, Music is life!\</string\>
+
 and convert it to
-<string name="app_name">La música es amor, la música es vida!</string>
+
+\<string name="music_is_life"\>La música es amor, la música es vida!\</string\>
+
 Similarly help translating maximum contents of the file.
 
 
