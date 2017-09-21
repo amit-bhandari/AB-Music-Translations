@@ -7,7 +7,8 @@ I need help from you people for translating AB Music to different languages. I a
 For e.g. if you want to provide german translations, just copy strings file to strings-de (de is internet top level domain for Germany) and start translating.
 
 -------------------------------------------------------------------------------------------------
-How it will work : 
+# How it will work : 
+
 I have copied english string resources to all 3 languages files, all you have to do is replace those english sentences with your language. 
 
 For e.g. If you want to contribute to spanish translations, open up strings-es file and look up this line,
@@ -22,7 +23,8 @@ Similarly help translating maximum contents of the file.
 
 -------------------------------------------------------------------------------------------------
 
-How to contribute : 
+# How to contribute : 
+
 This links will guide you on how to contribute here.
 
 https://gist.github.com/MarcDiethelm/7303312
