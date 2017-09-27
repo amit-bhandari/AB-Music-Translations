@@ -1,4 +1,6 @@
 # AB-Music-Translations
+In case you do not understand what this doc says, reach me on amit.bhandari.c@gmail.com and I shall help you out!
+
 Repository for AB Music translation across languages
 
 Hey yo guys,
