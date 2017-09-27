@@ -17,7 +17,8 @@
         <string name="tracks">tracks</string>
         <string name="albums">albums</string>
         <string name="create_playlist">Create new playlist</string>
-    
+        <string name="enable_now">Enable Now</string>
+
 <!-- Main Library activity     -->
 
     <!-- tabs -->
@@ -69,7 +70,9 @@
         <string name="action_refresh_library">Refresh Library</string>
         <string name="action_save">Save</string>
         <string name="action_share">Share</string>
-
+        <string name="action_sync_problem">Sync problem?</string>
+        <string name="action_reload">Reload</string>
+        <string name="action_call_for_help">Call for help *new*</string>
     <!-- menu about us -->
         <string name="action_licenses">Licenses</string>
         <string name="action_terms_of_use">Terms of Use</string>
@@ -109,6 +112,9 @@
         <string name="network_error">Network Error, try again later!</string>
         <string name="unknown_error">Unknown Error, try again later!</string>
         <string name="error_invalid_url">Invalid URL!</string>
+        <string name="art_info_not_available">Artist info not available at the moment, try again later</string>
+        <string name="lyrics_saved">Lyrics saved</string>
+        <string name="lyrics_removed">Lyrics Removed</string>
 
         <string name="preview_player_server_died">Server has died!</string>
         <string name="preview_player_io_error">I/O error!</string>
@@ -158,6 +164,10 @@
         <string name="error_playing_track">Something wrong! Track may be deleted or storage is not available at this time</string>
         <string name="error_adding_song_to_q">Error adding song to queue</string>
         <string name="timer_over">Timer Over</string>
+
+        <string name="error_saving_instant_lyrics">Error saving lyrics!</string>
+        <string name="instant_lyric_saved">Lyrics saved</string>
+        <string name="instant_lyric_already_saved">Lyrics already saved!</string>
 
     <!-- dialogs -->
         <string name="main_act_new_ver_info_title">Whats new</string>
@@ -245,6 +255,17 @@
         <string name="write_setting_perm_title">Permission Required</string>
         <string name="write_setting_perm_content">Please provide write setting permission for application to change Ringtone</string>
 
+        <string name="lyric_sync_error_title">Lyrics not in Sync?</string>
+        <string name="lyric_sync_error_content">Apologies for the inconvenience! \n\n
+                Fetching music information from other music players is tricky business and most of the times
+                they will not broadcast current music progress information (either intentionally or because of sloppy developers
+                like me!) \n\n
+                So what AB Music does is that it stores the time at which music was started and accordingly try to sync lyrics with it.
+                If while playback, you choose to pause or seek the music track in other player, AB Music loses track of time and thus
+                lyrics may go out of sync. \n\n
+                Unfortunately this is how Android works!
+        </string>
+
     <!--first time info messages -->
         <string name="music_lock_primary">Try music lock feature</string>
         <string name="music_lock_secondary">Tap the button to lock the music!</string>
@@ -319,7 +340,7 @@
         <string name="notif_minutes_to_sleep">\u0020 minutes to sleep</string>
         <string name="next_track">Next:\u0020 </string>
         <string name="empty_queue">Empty Queue</string>
-    
+
     <!-- preference screen -->
         <string name="title_remove_ads">Remove Ads</string>
         <string name="title_text_font">Music Library Text Font</string>
@@ -334,6 +355,12 @@
         <string name="title_theme_color">Primary Color</string>
         <string name="title_shake_action">Shake will</string>
         <string name="title_shake">Shake Control</string>
+        <string name="title_shake_main">Shake</string>
+        <string name="title_library">Library</string>
+        <string name="title_about">About</string>
+        <string name="title_reset">Reset</string>
+        <string name="title_instant_lyric">Instant Lyrics</string>
+        <string name="title_ui">User Interface</string>
         <string name="title_lock_screen_album_Art">Lock Screen Album Art</string>
         <string name="title_disc_size">Disc Size</string>
         <string name="title_licenses">Licenses </string>
@@ -343,8 +370,20 @@
         <string name="title_rescan_lib">Rescan Music Library</string>
         <string name="title_album_lib_view">Album Library View</string>
         <string name="title_hide_short_clips">Hide Audio Tracks Shorter Than</string>
+        <string name="title_batch_lyrics">Batch Lyrics</string>
 
-        <string name="whats_new"> \u0020 * Fixed KitKat crash. Duh! \n
-            </string>
+    <string name="whats_new"> \u0020 * Introducing Instant Lyrics - Now get lyrics as you play music on your device, no matter in which application. \n
+                                     * Search now works in folder library. \n
+                                     * Bug fixes. \n
+        </string>
+
+    <!-- Request notification access-->
+    <string name="instant_lyrics">Instant Lyrics</string>
+    <string name="instant_lyrics_text">Now fetch lyrics instantly as you play music on your device
+        (All major applications supported including Saavn, Gaana, Google Play and Spotify) </string>
+    <string name="instant_lyrics_request">For AB Music to work with all apps, some settings needs to be changed! </string>
+    <string name="instant_lyrics_skip_this">Skip this >>></string>
+    <string name="instant_lyrics_never_ask">Never ask again!</string>
+
 
     </resources>
